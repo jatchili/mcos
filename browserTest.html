@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+
+<script src="external/jsbn.js"></script>
+<script src="external/jsbn2.js"></script>
+<script src="external/sjcl.js"></script>
+<script src="external/sjcl-bn.js"></script>
+
+<script src="config/SECURITY_PARAMS.js"></script>
+<script src="config/GROUP_PARAMS.js"></script>
+<script src="config/ISSUER_KEY.js"></script>
+<script src="config/POLL_PARAM.js"></script>
+<script src="config/USER_KEY.js"></script>
+
+<script src="mcos.js"></script>
+
+</head>
+<body>
+	<h1>Run tests</h1>
+	<h2>(Open the JavaScript console to view the output)</h2>
+	<button onclick="ticketTest()">obtain voter-ticket</button><br/>
+	<button onclick="voteTest()">present example voter-ticket</button><br/>
+	<button onclick="completeTest()">obtain and present voter-ticket</button><br/>
+	<button onclick="twentyTests()">Do 20 tests</button>
+</body>
+</html>
